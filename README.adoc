@@ -1,0 +1,17 @@
+= Select A Job
+
+Runs a simple Spring Cloud Task (Boot) app that allows a user to select one of 2 Batch Jobs to execute.
+These jobs can be selected by setting the following job variable `io.spring.job`.
+
+For example to run Job1 use the following:
+`java -jar demo-0.0.1-SNAPSHOT.jar --io.spring.job=job1`
+
+For example to run Job2 use the following:
+`java -jar demo-0.0.1-SNAPSHOT.jar --io.spring.job=job2`
+
+
+== Build
+
+```
+mvn clean install 
+```
